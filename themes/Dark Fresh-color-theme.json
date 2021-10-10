@@ -2,7 +2,9 @@
 	"name": "Dark Fresh",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		"statusBar.background": "#9ee6fca4",
+		"tab.activeBackground": "#2847818c",
+		"editor.background": "#282b2c",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
@@ -26,7 +28,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#f5901c"
 			}
 		},
 		{
@@ -56,7 +58,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#C792EA",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -109,7 +112,8 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#f07178",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -120,6 +124,15 @@
 			],
 			"settings": {
 				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Other Variable, String Link",
+			"scope": [
+				"variable.other.property.js",
+			],
+			"settings": {
+				"foreground": "#ec913cc2",
 			}
 		},
 		{
@@ -135,7 +148,8 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#F78C6C",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -150,7 +164,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#C3E88D",
 			}
 		},
 		{
@@ -166,7 +180,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#FFCB6B",
 			}
 		},
 		{
@@ -175,7 +189,8 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#B2CCD6",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -239,7 +254,8 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#C792EA",
+				"fontStyle": "italic"
 			}
 		},
 		{
